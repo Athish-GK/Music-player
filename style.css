@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image:url(./images/wallpaper.jpg);
+    background-size:cover;
+    height: 100vh;
+    background-position: center;
+}
+h1{
+    font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+button{
+    width: 250px;
+    height: 300px;
+    border-radius: 8px;
+}
+.ar{
+    background-image: url(./images/ar.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.u1{
+    background-image: url(./images/u1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.ani{
+    background-image: url(./images/ani.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sana{
+    background-image: url(./images/sana.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.gv{
+    background-image: url(./images/gv.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.mames{
+    background-image: url(./images/mame.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hiphop{
+    background-image: url(./images/hiphop.jpg);
+    background-position: center;
+    background-size: cover;
+}
