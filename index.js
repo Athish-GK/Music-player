@@ -11,69 +11,97 @@ document.querySelector(".ar").addEventListener("click",function (){
     if (currentAudio !== null) {
         currentAudio.pause();
         currentAudio.currentTime = 0;
+        for(i=0;i<7;i++){
+          document.querySelectorAll("button")[i].style.border="none";
+        }
       }
-    var a = Math.floor(Math.random() * ar.length);
-    var song = ar[a];
-    currentAudio = new Audio(song);
-    currentAudio.play();
+      this.style.border="3px solid white";
+      var a = Math.floor(Math.random() * ar.length);
+      var song = ar[a];
+      currentAudio = new Audio(song);
+      currentAudio.play();
 });
 document.querySelector(".u1").addEventListener("click",function (){
     if (currentAudio !== null) {
         currentAudio.pause();
         currentAudio.currentTime = 0;
+        for(i=0;i<7;i++){
+          document.querySelectorAll("button")[i].style.border="none";
+        }
       }
-    var a = Math.floor(Math.random() * u1.length);
-    var song = u1[a];
-    currentAudio = new Audio(song);
-    currentAudio.play();
+      this.style.border="3px solid white";
+      var a = Math.floor(Math.random() * u1.length);
+      var song = u1[a];
+      currentAudio = new Audio(song);
+      currentAudio.play();
 });
 document.querySelector(".ani").addEventListener("click",function (){
     if (currentAudio !== null) {
         currentAudio.pause();
         currentAudio.currentTime = 0;
+        for(i=0;i<7;i++){
+          document.querySelectorAll("button")[i].style.border="none";
+        }
       }
-    var a = Math.floor(Math.random() * ani.length);
-    var song = ani[a];
-    currentAudio = new Audio(song);
-    currentAudio.play();
+      this.style.border="3px solid white";
+      var a = Math.floor(Math.random() * ani.length);
+      var song = ani[a];
+      currentAudio = new Audio(song);
+      currentAudio.play();
 });
 document.querySelector(".sana").addEventListener("click",function (){
     if (currentAudio !== null) {
         currentAudio.pause();
         currentAudio.currentTime = 0;
+        for(i=0;i<7;i++){
+          document.querySelectorAll("button")[i].style.border="none";
+        }
       }
-    var a = Math.floor(Math.random() * sana.length);
-    var song = sana[a];
-    currentAudio = new Audio(song);
-    currentAudio.play();
+      this.style.border="3px solid white";
+      var a = Math.floor(Math.random() * sana.length);
+      var song = sana[a];
+      currentAudio = new Audio(song);
+      currentAudio.play();
 });
 document.querySelector(".gv").addEventListener("click",function (){
     if (currentAudio !== null) {
         currentAudio.pause();
         currentAudio.currentTime = 0;
+        for(i=0;i<7;i++){
+          document.querySelectorAll("button")[i].style.border="none";
+        }
       }
-    var a = Math.floor(Math.random() * gv.length);
-    var song = gv[a];
-    currentAudio = new Audio(song);
-    currentAudio.play();
+      this.style.border="3px solid white";
+      var a = Math.floor(Math.random() * gv.length);
+      var song = gv[a];
+      currentAudio = new Audio(song);
+      currentAudio.play();
 });
 document.querySelector(".mames").addEventListener("click",function (){
     if (currentAudio !== null) {
         currentAudio.pause();
         currentAudio.currentTime = 0;
+        for(i=0;i<7;i++){
+          document.querySelectorAll("button")[i].style.border="none";
+        }
       }
-    var a = Math.floor(Math.random() * mames.length);
-    var song = mames[a];
-    currentAudio = new Audio(song);
-    currentAudio.play();
+      this.style.border="3px solid white";
+      var a = Math.floor(Math.random() * mames.length);
+      var song = mames[a];
+      currentAudio = new Audio(song);
+      currentAudio.play();
 });
 document.querySelector(".hiphop").addEventListener("click",function (){
     if (currentAudio !== null) {
         currentAudio.pause();
         currentAudio.currentTime = 0;
+        for(i=0;i<7;i++){
+          document.querySelectorAll("button")[i].style.border="none";
+        }
       }
-    var a = Math.floor(Math.random() * hiphop.length);
-    var song = hiphop[a];
-    currentAudio = new Audio(song);
-    currentAudio.play();
+      this.style.border="3px solid white";
+      var a = Math.floor(Math.random() * hiphop.length);
+      var song = hiphop[a];
+      currentAudio = new Audio(song);
+      currentAudio.play();
 });
